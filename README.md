@@ -5,7 +5,7 @@ nano ~/wordpress-sqlite/.env
 ```
 ```
 mkdir wordpress-sqlite && \
-curl -L -o /tmp/vpn.zip https://raw.githubusercontent.com/AngelGonePro/wordpress-docker/refs/heads/main/wordpress-sqlite.zip && \
+wget -O /tmp/vpn.zip https://raw.githubusercontent.com/AngelGonePro/wordpress-docker/refs/heads/main/wordpress-sqlite.zip && \
 python3 - << 'EOF'
 import zipfile, os
 zip_path = "/tmp/vpn.zip"
