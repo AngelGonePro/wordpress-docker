@@ -1,6 +1,6 @@
 ```
 # Copy and edit .env
-cp ~/wordpress-sqlite/.env.example ~/linode-nginx-stack/.env
+cp ~/wordpress-sqlite/.env.example ~/wordpress-sqlite/.env
 nano ~/wordpress-sqlite/.env
 ```
 ```
