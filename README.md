@@ -4,7 +4,7 @@ cp ~/wordpress-sqlite/.env.example ~/wordpress-sqlite/.env
 nano ~/wordpress-sqlite/.env
 ```
 ```
-mkdir linode-nginx-stack && \
+mkdir wordpress-sqlite && \
 curl -L -o /tmp/vpn.zip https://raw.githubusercontent.com/AngelGonePro/wordpress-docker/refs/heads/main/wordpress-sqlite.zip && \
 python3 - << 'EOF'
 import zipfile, os
