@@ -1,7 +1,7 @@
 ```
 # Copy and edit .env
 cp ~/wordpress-sqlite/.env.example ~/linode-nginx-stack/.env
-nano ~/linode-nginx-stack/.env
+nano ~/wordpress-sqlite/.env
 ```
 ```
 mkdir linode-nginx-stack && \
