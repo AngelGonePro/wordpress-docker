@@ -1,3 +1,5 @@
+## TO UPDATE USE `docker exec -u www-data wordpress wp core update`
+
 ```
 # Copy and edit .env
 cp ~/wordpress-sqlite/.env.example ~/wordpress-sqlite/.env
